@@ -2,8 +2,8 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-gem "activerecord", '<= 5.1'
-gem "sinatra-activerecord"
+gem "activerecord", "~> 7.1", ">= 7.1.5.2"
+gem "sinatra-activerecord", ">= 2.0.14"
 gem "rake"
 gem "bcrypt"
 gem "rspec"
